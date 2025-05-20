@@ -244,6 +244,34 @@ else:
     print("Saindo...")
 -----------------------------------------------------------------------=
 
+stefane
+
+def somar (n1,n2):
+    return n1 + n2
+
+def multiplicar (n1,n2):
+    return n1 * n2
+
+def subtrair (n1,n2):
+    return n1 - n2
+
+def dividir (n1,n2):
+    return n1 / n2
+
+numero1 =int(input("Digite o primeiro número:"))
+numero2 =int(input("Digite o segundo número:"))
+
+print ("Digite a opção que deseja:\n1)somar\n2)multiplicar\n3)subtrair\n4 dividir")
+opcao = input()
+
+if opcao== "1":
+    print(somar(numero1 ,numero2))
+elif opcao == "2":
+     print(multiplicar(numero1 ,numero2))
+elif opcao == "3":
+    print(subtrair(numero1,numero2))
+elif opcao == "4":
+    print(dividir(numero1,numero2))
 
 
 
