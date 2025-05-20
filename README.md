@@ -206,6 +206,43 @@ while senha != 12345:
     if contador >= 2:
         print("Dica, Sua senha começa com 1,2...")
 
+  ------------------------------------------------------------------------------------
+
+ DANIEL 
+ 20/05/2025
+
+ def somar (n1,n2):
+    return n1 + n2
+
+def multiplicacao (n3,n4):
+    return n3 * n4
+   
+def divisao (n5,n6):
+    return n5 / n6
+
+def subtrair (n7, n8):
+    return n7 - n8
+
+numero1 = int(input("Digite o primeiro número:"))
+numero2 = int(input("Digite o segundo número:"))
+
+opcao_usuario = input("Digite a opção que deseja:\n1) Adição:\n2) Multiplicação:\n3) Divisão:\n4) Subtração:\n5) Sair do programa:\n")
+
+if opcao_usuario == "1":
+    print(somar(numero1,numero2))
+
+elif opcao_usuario == "2":
+    print(multiplicacao(numero1,numero2))
+
+elif opcao_usuario == "3":
+    print(divisao(numero1,numero2))
+
+elif opcao_usuario == "4":
+    print(subtrair(numero1, numero2))
+
+else:
+    print("Saindo...")
+-----------------------------------------------------------------------=
 
 
 
