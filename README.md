@@ -190,6 +190,33 @@ elif opcao_usuario == "3":
 
 else:
     print("Opção inválida.")
+-----------------------------------------------------------------------------------------------------
+senha, contador:
+DANIEL
+senha = 0
+contador = 0
+while senha != 12345:
+    senha = int(input("Digite a sua senha "))
+    if senha == 12345:
+        print("Sua senha está correta")
+   
+    else:
+        print("Sua senha está incorreta")
+        contador = contador +1 
+    if contador >= 2:
+        print("Dica, Sua senha começa com 1,2...")
 
+
+
+
+
+
+
+
+
+
+
+
+        
 
 
