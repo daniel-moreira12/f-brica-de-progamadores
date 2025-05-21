@@ -294,7 +294,7 @@ print("Lista inicial:",nomes)
 nomes.append ("Carlos") #Adiciona ao final
 print("Após append:",nomes)
 
-nomes.insert(1,"Fernada") #Insere "Fernanda"na posição 1
+nomes.insert(1,"Fernanda") #Insere "Fernanda"na posição 1
 print("Após insert",nomes)
 
 #Modificando elementos
@@ -305,7 +305,7 @@ print("Após modificação:",nomes)
 del nomes[3] #Remove o elemento no índice 3
 print("Após del:",nomes)
 
-nomes.remove("Maria") #Remove a primeira ocorrência de "Maria"
+nomes.remove("Fernanda") #Remove a primeira ocorrência de "Fernanda"
 print("Após remove:",nomes)
 
 removido = nomes.pop(2) #Remove e retorna o elemento no índice 2
