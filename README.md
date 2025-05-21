@@ -244,7 +244,14 @@ else:
     print("Saindo...")
 -----------------------------------------------------------------------=
 
+STÈFANE 
+21/05
 
+DOLAR = 5.50
+
+valor_em_dolar = float(input("Digite o valor em dólares:"))
+valor_em_real = valor_em_dolar * DOLAR
+print(f"Valor convertido em reias é:R$ {valor_em_real:.2f}")
 
 
 
