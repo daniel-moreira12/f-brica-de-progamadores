@@ -253,7 +253,21 @@ valor_em_dolar = float(input("Digite o valor em dólares:"))
 valor_em_real = valor_em_dolar * DOLAR
 print(f"Valor convertido em reias é:R$ {valor_em_real:.2f}")
 
+-------------------------------------------------------------------------------------------------
 
+list.py
+
+nomes = ["Joaquim","Maria","Ana"]
+
+print(nomes[0])
+print(nomes[1])
+print(nomes[2])
+
+nomes[0]= "João"
+
+print(nomes[0])
+print(nomes[1])
+print(nomes[2])
 
 
 
