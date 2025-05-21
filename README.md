@@ -254,7 +254,8 @@ valor_em_real = valor_em_dolar * DOLAR
 print(f"Valor convertido em reias é:R$ {valor_em_real:.2f}")
 
 -------------------------------------------------------------------------------------------------
-
+#stéfane
+21/05
 list.py
 
 nomes = ["Joaquim","Maria","Ana"]
@@ -280,6 +281,25 @@ print(nomes[2])
 print(nomes[3])
 print(nomes[4])
 
+------------------------------------------------------------------
+
+ #stéfane
+21/05
+ 
+#Lista inicial
+nomes =["Joaquim","Maria","Ana"]
+print("Lista inicial:",nomes)
+
+#Adicionando elementos
+nomes.append ("Carlos") #Adiciona ao final
+print("Após append:",nomes)
+
+nomes.insert(1,"Fernada") #Insere "Fernanda"na posição 1
+print("Após insert",nomes)
+
+#Modificando elementos
+nomes[2] = "Paulo"   #Modifica o elemento no índice 2
+print("Após modificação:",nomes)
 
 
 
