@@ -315,6 +315,62 @@ nomes.clear() #Esvaziar a lista
 print("Após clear:",nomes)
 
 
+----------------------------------------------------------------------------------
+Daniel
+02/06
+
+import turtle
+t = turtle.Turtle ()
+t.color("blue")
+
+def mover_para_cima():
+    y = t.ycor ()
+    t.sety(y +10)
+def mover_para_baixo ():
+    y = t.ycor()
+    t.sety(y - 10)
+
+def mover_para_esquerda ():
+    x = t.xcor ()
+    t.setx(x - 10)
+
+def mover_para_direita ():
+    x = t.xcor ()
+    t.setx(x + 10)
+
+def mover_diagonal_direita_cima ():
+    x = t.xcor()
+    y = t.ycor()
+    t.setposition( (x + 10, y +10 ) )
+
+def mover_diagonal_esquerda_cima ():
+    x = t.xcor()
+    y = t.ycor()
+    t.setposition( (x - 10, y + 10 ) )
+
+def mover_diagonal_esquerda_baixo ():
+    x = t.xcor()
+    y = t.ycor()
+    t.setposition( (x - 10, y - 10))
+
+def mover_diagonal_direita_baixo ():
+    x = t.xcor()
+    y = t.ycor ()
+    t.setposition ((x + 10, y - 10))
+
+tela = turtle.Screen()
+tela.listen()
+tela.onkeypress(mover_para_cima,"w")
+tela.onkeypress(mover_para_baixo,"s")
+tela.onkeypress(mover_para_esquerda,"a")
+tela.onkeypress(mover_para_direita,"d")
+tela.onkeypress(mover_diagonal_direita_cima,"e")
+tela.onkeypress(mover_diagonal_esquerda_cima,"q")
+tela.onkeypress(mover_diagonal_direita_baixo,"z")
+tela.onkeypress(mover_diagonal_esquerda_baixo,"c")
+tela.mainloop()
+
+
 
         
 
